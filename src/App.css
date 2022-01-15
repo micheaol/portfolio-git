@@ -20,6 +20,9 @@
 
 .right-content {
   display: flex;
+  justify-content:space-evenly;
+  padding: 20px;
+  width: 10%;
 }
 
 .search-bar input {

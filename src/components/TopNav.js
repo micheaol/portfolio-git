@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaRegBell } from 'react-icons/fa';
+import { BsPersonCircle, BsPlus, BsCaretDown } from 'react-icons/bs'
 
 const TopNav = () => {
     return (
@@ -25,13 +26,13 @@ const TopNav = () => {
 
             <div className='right-content'>
                 <div className='bell-icon'>
-                    <h2>bell</h2>
+                    <FaRegBell size={20} color="white" />
                 </div>
                 <div className='plus-icon'>
-                    <h3>plus icon</h3>
+                    <BsPlus size={20} color="white" />
                 </div>
                 <div className='avatar'>
-                    <h3>Avatar</h3>
+                <BsPersonCircle size={20} color="white" />
                 </div>
 
             </div>
