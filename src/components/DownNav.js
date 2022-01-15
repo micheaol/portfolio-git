@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { BsBook, BsStar } from 'react-icons/bs';
 import { RiGitRepositoryFill, RiProjectorFill } from 'react-icons/ri';
 import { FiPackage } from 'react-icons/fi';
@@ -7,11 +8,11 @@ const DownNav = () => {
     return (
         <nav className='down-nav'>
             <ul>
-                <li><BsBook /> Overview</li>
-                <li> <RiGitRepositoryFill /> Repositories</li>
-                <li> <RiProjectorFill /> Projects</li>
-                <li> <FiPackage /> Packages</li>
-                <li> <BsStar /> Stars</li>
+                <li activeclassname="active"><NavLink to="/"><BsBook /> Overview</NavLink></li>
+                <li><NavLink to="/projects" activeclassname="active"><RiGitRepositoryFill /> Repositories</NavLink></li>
+                <li><NavLink to="/contacts" activeclassname="active"><RiProjectorFill /> Projects</NavLink></li>
+                <li><NavLink to="/" activeclassname="active"><FiPackage /> Packages</NavLink></li>
+                <li><NavLink to="/" activeclassname="active"><BsStar /> Stars</NavLink></li> 
             </ul>
         </nav>
     )

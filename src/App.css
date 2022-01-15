@@ -60,4 +60,19 @@
 
 .down-nav ul li {
   margin: 18px;
+  padding-bottom: 5px;
+  color: aliceblue;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: rgb(235, 228, 228);
+}
+
+.active {
+  text-decoration: underline !important;
+}
+
+#projects {
+  color: black;
 }
