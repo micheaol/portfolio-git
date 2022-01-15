@@ -1,12 +1,12 @@
 import React from 'react'
-import TopNav from '../components/TopNav'
+import Avatar from '../components/Avatar'
 
 const Home = () => {
     return (
-        <div>
-            <TopNav />
+        <div className='home-layout'>
+            <h1>Hi</h1>
         </div>
     )
 }
 
-export default Home
+export default Home;

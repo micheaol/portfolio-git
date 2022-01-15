@@ -4,17 +4,86 @@
   margin: 0;
 }
 
+.home-layout {
+  display: flex;
+  background-color: crimson;
+  justify-content: end;
+  width: 50%;
+}
+
+.layout-plan {
+  display: flex;
+  background-color: crimson;
+}
+
 .top-nav {
   background-color: #30343c;
   display: flex;
-  justify-content: space-around;
-  padding: 15px;
+  justify-content:space-between;
 }
 
 .left-content {
   display: flex;
+  justify-content:space-evenly;
+  width: 50%;
+  padding: 10px;
 }
 
 .right-content {
   display: flex;
+  justify-content:space-evenly;
+  padding: 20px;
+  width: 10%;
+}
+
+.search-bar input {
+  background-color:#28242c;
+  padding: 8px;
+  width: 120%;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.menu-left ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  color: aliceblue;
+  margin: 5px;
+}
+.menu-left ul li {
+  margin: 5px;
+}
+
+.down-nav {
+  background-color: #28242c;
+  color: rgb(128, 137, 145);
+  
+}
+
+.down-nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.down-nav ul li {
+  margin: 18px;
+  padding-top: 15px;
+  color: aliceblue;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: rgb(235, 228, 228);
+}
+
+.active {
+  text-decoration: underline !important;
+}
+
+#projects {
+  color: black;
 }
