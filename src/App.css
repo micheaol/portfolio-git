@@ -6,7 +6,8 @@
 
 .home-layout {
   display: flex;
-  justify-content: end;
+  flex-direction: column;
+  justify-content: start;
   width: 50%;
 }
 
@@ -14,7 +15,7 @@
   width: 68%;
   border: solid 1px rgb(104, 101, 97);
   display: flex;
-  justify-content: start;
+  /* justify-content: center; */
   margin-top: 25px;
   border-radius: 10px;
 }
@@ -71,6 +72,13 @@
   margin: 5px;
 }
 
+.welcome-msg {
+  padding-top: 20px;
+  border-bottom: solid 1px rgb(165, 157, 157);
+  height: 15%;
+  text-align: center;
+}
+
 .down-nav {
   background-color: #28242c;
   color: rgb(128, 137, 145);
@@ -85,6 +93,14 @@
   padding-top: 15px;
 }
 
+.social-icons ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-top: 10px;
+  width: 20%;
+  padding-bottom: 10px;
+}
 .down-nav ul li {
   margin: 18px;
   padding-top: 15px;
@@ -116,10 +132,62 @@
   list-style-type: none;
 }
 
+.person-sum {
+  padding: 35px;
+}
 .avatar-sec {
   width: 25%;
 }
 
+.techs {
+  border-bottom: solid 1px rgb(145, 139, 139);
+  width: 100%;
+}
+
+.techs h3 {
+  padding-top: 10px;
+}
+.techs ul {
+  display: flex;
+  list-style-type: none;
+  margin: 5px;
+}
+
+.techs ul li {
+  margin: 5px;
+}
+
+.tech-icons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  border-top: solid 1px rgb(156, 152, 152);
+  height: 45%;
+}
+
+.tech-icons p {
+  margin-bottom: 10px;
+}
+
+.tech-icons {
+  width: 65%;
+}
+.tech-image {
+  margin: 0 auto;
+  text-align: end;
+}
+.tech-image img{
+  width: 65%;
+}
+
+.git-starts-wrapper {
+  display: flex;
+}
+
+.git-starts, .git-analytic {
+  border: solid 1px rgb(177, 170, 170);
+  padding: 15px;
+}
 a:-webkit-any-link {
   text-decoration: none;
   color: rgb(235, 228, 228);
