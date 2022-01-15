@@ -44,3 +44,20 @@
 .menu-left ul li {
   margin: 5px;
 }
+
+.down-nav {
+  background-color: #28242c;
+  color: rgb(128, 137, 145);
+  
+}
+
+.down-nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.down-nav ul li {
+  margin: 18px;
+}

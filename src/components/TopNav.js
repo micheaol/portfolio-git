@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaGithub, FaRegBell } from 'react-icons/fa';
-import { BsPersonCircle, BsPlus, BsCaretDown } from 'react-icons/bs'
+import { BsPersonCircle, BsPlus } from 'react-icons/bs'
 
 const TopNav = () => {
     return (
