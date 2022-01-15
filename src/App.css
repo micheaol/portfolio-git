@@ -4,11 +4,22 @@
   margin: 0;
 }
 
+.home-layout {
+  display: flex;
+  background-color: crimson;
+  justify-content: end;
+  width: 50%;
+}
+
+.layout-plan {
+  display: flex;
+  background-color: crimson;
+}
+
 .top-nav {
   background-color: #30343c;
   display: flex;
   justify-content:space-between;
-  /* padding: 15px; */
 }
 
 .left-content {

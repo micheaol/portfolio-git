@@ -1,11 +1,9 @@
 import React from 'react'
-import DownNav from '../components/DownNav'
-import TopNav from '../components/TopNav'
-import Projects from './Projects'
+import Avatar from '../components/Avatar'
 
 const Home = () => {
     return (
-        <div>
+        <div className='home-layout'>
             <h1>Hi</h1>
         </div>
     )
