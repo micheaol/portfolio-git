@@ -1,9 +1,8 @@
 import React from 'react'
-import TopNav from '../components/TopNav'
 
 const Projects = () => {
     return (
-        <div>
+        <div className='pro-layout'>
             <h1>Projects</h1>
         </div>
        

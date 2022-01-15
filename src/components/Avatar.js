@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { BsPersonCircle } from 'react-icons/bs';
 import Profile from './Profile'
 
 const Avatar = () => {
     return (
-        <div>
-            <h1>I am avatar</h1>
+        <div className='avatar-sec'>
+           <BsPersonCircle size={270}/>
             <Profile />
         </div>
     )

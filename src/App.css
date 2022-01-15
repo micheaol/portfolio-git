@@ -6,14 +6,24 @@
 
 .home-layout {
   display: flex;
-  background-color: crimson;
   justify-content: end;
   width: 50%;
 }
 
+.pro-layout, .home-layout {
+  width: 60%;
+  border: solid 1px rgb(104, 101, 97);
+  display: flex;
+  justify-content: start;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
 .layout-plan {
   display: flex;
-  background-color: crimson;
+  background-color: #28242c;
+  color: aliceblue;
+  justify-content: space-around;
 }
 
 .top-nav {
@@ -59,6 +69,7 @@
 .down-nav {
   background-color: #28242c;
   color: rgb(128, 137, 145);
+  border-bottom: rgb(109, 105, 106) 1px solid;
   
 }
 
@@ -73,6 +84,10 @@
   margin: 18px;
   padding-top: 15px;
   color: aliceblue;
+}
+
+.avatar-sec {
+  width: 25%;
 }
 
 a:-webkit-any-link {
