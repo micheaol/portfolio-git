@@ -11,7 +11,7 @@
 }
 
 .pro-layout, .home-layout {
-  width: 60%;
+  width: 68%;
   border: solid 1px rgb(104, 101, 97);
   display: flex;
   justify-content: start;
@@ -30,6 +30,11 @@
   background-color: #30343c;
   display: flex;
   justify-content:space-between;
+}
+
+.detail-layout {
+  margin: 10px;
+  color: rgb(174, 182, 189);
 }
 
 .left-content {
@@ -84,6 +89,31 @@
   margin: 18px;
   padding-top: 15px;
   color: aliceblue;
+}
+
+.top-detail {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.top-detail h1{
+  margin-bottom: 15px;
+}
+
+.top-detail button {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #484458;
+  border: none;
+  border-radius: 6px;
+  color: rgb(174, 182, 189);
+}
+
+.down-detail ul {
+  font-size: 15px;
+  list-style-type: none;
 }
 
 .avatar-sec {
