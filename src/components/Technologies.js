@@ -9,7 +9,9 @@ const Technologies = () => {
                 <p>📨 Any freelance work? Reach me on, email 🙋‍♂️</p>
                 <p>💬 Ask me about anything, I am happy to help</p>
                 <div className="techs">
-                    <h3>languages and tools:</h3>
+                <div className='tech-title'>
+                    <h2>📈 languages and tools:</h2>
+                </div>
                     <ul>
                         <li><a href="#"><IoLogoJavascript color='yellow'/></a></li>
                         <li><a href="#"><IoLogoJavascript color='yellow'/></a></li>

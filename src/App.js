@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import TopNav from './components/TopNav';
 import Avatar from './components/Avatar';
+import Repo from './pages/Repo';
+import About from './pages/About';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/projects" element={<Projects />} />
+        <Route exact path="/repositories" element={<Repo />} />
+        <Route exact path="/about-me" element={<About />} />
       </Routes>
       </div>
      

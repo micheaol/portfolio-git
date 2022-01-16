@@ -13,6 +13,7 @@ const Home = () => {
             <div className='social-icons'>
                 <ul>
                     <li><a href="#">< SiDiscord size={25} color='blue'/></a></li>
+                    <li><a href="#">< SiDiscord size={25} color='blue'/></a></li>
                     <li><a href="#">< FaTwitter size={25} color='blue' /></a></li>
                     <li><a href="#"><FaLinkedin size={25} color='blue' /></a></li>
                 </ul>

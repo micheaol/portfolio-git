@@ -11,11 +11,10 @@
   width: 50%;
 }
 
-.pro-layout, .home-layout {
+.pro-layout, .home-layout, .repo-layout, .about-layout {
   width: 68%;
   border: solid 1px rgb(104, 101, 97);
   display: flex;
-  /* justify-content: center; */
   margin-top: 25px;
   border-radius: 10px;
 }
@@ -139,13 +138,18 @@
   width: 25%;
 }
 
+.avatar-sec img {
+  border-radius: 50%;
+  width: 80%;
+  margin-left: 15px;
+}
 .techs {
   border-bottom: solid 1px rgb(145, 139, 139);
   width: 100%;
 }
 
-.techs h3 {
-  padding-top: 10px;
+.tech-title {
+  padding-top: 15px;
 }
 .techs ul {
   display: flex;
