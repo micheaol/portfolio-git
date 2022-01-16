@@ -1,22 +1,18 @@
-import React from 'react';
-import Card from 'react-bootstrap/card'
+import React from 'react'
 
 const ProjectCard = () => {
     return (
         <div className='project-card card'>
-           <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
+            <div className='card-header'>
+                <h1>Project Card</h1>
+            </div>
+            <div className='card-body'>
+                <h3>Card Title</h3>
+                <p className='card-text'>Card details</p>
+                <div className='card-btn'>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
         </div>
     )
 }
