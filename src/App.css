@@ -11,7 +11,8 @@
   width: 50%;
 }
 
-.pro-layout, .home-layout, .repo-layout, .about-layout {
+.pro-layout, .home-layout, 
+.repo-layout, .about-layout, .contact-layout {
   width: 68%;
   border: solid 1px rgb(104, 101, 97);
   display: flex;
@@ -125,6 +126,7 @@
   border-radius: 6px;
   color: rgb(174, 182, 189);
 }
+
 
 .down-detail ul {
   font-size: 15px;
