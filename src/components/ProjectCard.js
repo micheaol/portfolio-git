@@ -1,16 +1,17 @@
-import React from 'react'
+import React from 'react';
 
-const ProjectCard = () => {
+const ProjectCard = ({ project}) => {
+    console.log(project.summary);
     return (
         <div className='project-card card'>
             <div className='card-header'>
-                <h1>Project Card</h1>
+                <h3>{project.title}</h3>
             </div>
             <div className='card-body'>
-                <h3>Card Title</h3>
-                <p className='card-text'>Card details</p>
+                <p className='card-text'>{project.summary}</p>
                 <div className='card-btn'>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" className="btn btn-primary">Live Demo</a>
+                    <a href="#" className="btn btn-primary">Source Code</a>
                 </div>
             </div>
         </div>

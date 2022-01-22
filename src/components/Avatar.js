@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsPersonCircle } from 'react-icons/bs';
-import self from '../images/self.jpg';
+import self from '../images/slack.png';
 import Profile from './Profile'
 
 const Avatar = () => {
