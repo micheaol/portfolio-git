@@ -407,4 +407,12 @@ a:-webkit-any-link {
   .contact-layout {
     width: 98vw;
   }
+
+  .social-icons ul li{
+    margin-right: 5px;
+  }
+
+  .about-layout {
+    width: 96vw;
+  }
 }
