@@ -8,10 +8,10 @@ const DownNav = () => {
     return (
         <nav className='down-nav'>
             <ul>
-                <li activeclassname="active"><NavLink to="/"><BsBook /> Overview</NavLink></li>
-                <li><NavLink to="/projects" activeclassname="active"><RiProjectorFill /> Projects</NavLink></li>
-                <li><NavLink to="/about-me" activeclassname="active"><FiPackage /> About me</NavLink></li>
-                <li><NavLink to="/contact" activeclassname="active"><BsStar /> Contact me </NavLink></li> 
+                <li activeclassname="active"><NavLink to="/"><BsBook className='book-icon'/> Overview</NavLink></li>
+                <li><NavLink to="/projects" activeclassname="active"><RiProjectorFill className='project-icon' /> Projects</NavLink></li>
+                <li><NavLink to="/about-me" activeclassname="active"><FiPackage className='package-icon'/> About me</NavLink></li>
+                <li><NavLink to="/contact" activeclassname="active"><BsStar className='star-icon'/> Contact me </NavLink></li> 
             </ul>
         </nav>
     )

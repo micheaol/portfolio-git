@@ -285,6 +285,10 @@ a:-webkit-any-link {
   display: none;
 }
 
+.name-sec, .user-id {
+  margin-left: 10px;
+}
+
 
 
 @media screen and (max-width: 960px) {
@@ -334,5 +338,52 @@ a:-webkit-any-link {
 
   .bell-icon {
     margin-top: 5px;
+  }
+
+  .avatar-with-name-sec {
+    display: flex;
+  }
+
+  .avatar-image {
+    width: 20%;
+    margin-right: 10px;
+    margin-top: 2%;
+  }
+
+  .profile-name {
+    margin-top: 2%;
+  }
+
+  .name-sec {
+    font-size: 1.5rem;
+
+  }
+
+  .country-letter, .state-letter {
+    display: none;
+  }
+
+  .down-nav {
+    font-size: 0.90rem;
+  }
+
+  .home-layout {
+    width: 96vw;
+  }
+
+  .git-starts-wrapper {
+    flex-direction: column;
+  }
+
+  .git-starts img, .git-analytic img{
+   width: 100%;
+  }
+
+  .book-icon, .project-icon, .package-icon, .star-icon {
+    display: none;
+  }
+
+  .tech-title {
+    font-size: 1.2rem;
   }
 }
