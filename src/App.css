@@ -294,6 +294,13 @@ a:-webkit-any-link {
   margin-left: 10px;
 }
 
+.card-image-div {
+  align-items: center;
+}
+.card-img-top {
+  width: 20%;
+}
+
 
 
 @media screen and (max-width: 960px) {

@@ -7,7 +7,7 @@ const Profile = () => {
     return (
         <div className='detail-layout'>
            <div className='top-detail'>
-            <p>"Full-Stack Software Developer with a love for JavaScript. I listen to music and write in my spare time. Open to new opportunities.</p>
+            <p>"Full-Stack Software Developer with love for JavaScript and Rails. I listen to music and write in my spare time. Open to new opportunities.</p>
             <button>Edit profile</button>
            </div>
            <div className='down-detail'>
