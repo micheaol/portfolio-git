@@ -1,16 +1,20 @@
 import React from 'react'
 import { FaGithub, FaRegBell } from 'react-icons/fa';
 import { BsPersonCircle, BsPlus } from 'react-icons/bs'
+import { GiHamburgerMenu } from 'react-icons/gi'
 
 const TopNav = () => {
     return (
         <div className='top-nav'>
+            <div className="hamburger-menu">
+                <GiHamburgerMenu size={40} color="white" />
+            </div>
             <div className='left-content'>
                 <div className='logo'>
                 <FaGithub size={40} color="white"/>
                 </div>
                 <div className='search-bar'>
-                <form >
+                <form className='search-form'>
                     <input type="text" placeholder="Search.." name="search"/>
                 </form>
                 </div>

@@ -239,3 +239,100 @@ a:-webkit-any-link {
 #projects {
   color: black;
 }
+
+.contact-form {
+
+}
+.contact{
+  padding: 4%;
+  height: 400px;
+}
+.col-md-3{
+  background: #464442;
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+  margin-top:10%;
+}
+.contact-info img{
+  margin-bottom: 15%;
+}
+.contact-info h2{
+  margin-bottom: 10%;
+}
+.col-md-9{
+  background: #fff;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+  font-weight:600;
+}
+.contact-form button{
+  background: #25274d;
+  color: #fff;
+  font-weight: 600;
+  width: 25%;
+}
+.contact-form button:focus{
+  box-shadow:none;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+  .top-nav {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  .menu-left {
+    display: none;
+  }
+
+  .search-form {
+    display: none;
+  }
+
+  .layout-plan {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .avatar-sec {
+    width: 100%;
+  }
+  
+  .avatar-sec img {
+    border-radius: 50%;
+    width: 80%;
+    margin-left: 15px;
+  }
+
+  .hamburger-menu {
+    margin: 13px;
+    display: block;
+  }
+
+.logo {
+  margin-top: 5px;
+} 
+
+  .left-content {
+    width: 0;
+  }
+  .avatar, .plus-icon{
+    display: none;
+  }
+
+  .bell-icon {
+    margin-top: 5px;
+  }
+}
