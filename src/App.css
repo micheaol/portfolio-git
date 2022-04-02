@@ -241,7 +241,12 @@ a:-webkit-any-link {
 }
 
 .contact-form {
+  
+}
 
+.row {
+  margin-right: 0;
+  margin-left: 0;
 }
 .contact{
   padding: 4%;
@@ -385,5 +390,21 @@ a:-webkit-any-link {
 
   .tech-title {
     font-size: 1.2rem;
+  }
+
+  .pro-layout {
+    width: 96vw;
+  }
+
+  .project-card {
+    height: 95%;
+  }
+
+  .card-btn {
+    display: block;
+  }
+
+  .contact-layout {
+    width: 98vw;
   }
 }
