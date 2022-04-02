@@ -1,15 +1,15 @@
 import React from 'react';
-import image from '../images/slack.png'
+import covid from '../images/covid.png'
 
 const ProjectCard = ({ project}) => {
-    console.log(project.summary);
+
     return (
         <div className='project-card card bg-black'>
             <div className='card-header'>
                 <h3>{project.title}</h3>
             </div>
             <div className="card-image-div">
-                <img src={image} class="card-img-top" alt="card"/>
+                <img src={project.project_img} className="card-img-top" alt="card"/>
             </div>
             <div className='card-body'>
                 <p className='card-text'>{project.summary}</p>
