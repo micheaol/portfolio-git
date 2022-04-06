@@ -23,7 +23,6 @@
 .pro-layout, .repo-layout {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* grid-template-rows: repeat(4, 1fr); */
   text-align: center;
 }
 
@@ -48,7 +47,6 @@
   margin-bottom: 5px;
 }
 .card-btn a {
-  /* background-color: #484458; */
   margin: 10px;
   border-radius: 5px;
   padding: 5px;
@@ -246,10 +244,6 @@ a:-webkit-any-link {
   color: black;
 }
 
-.contact-form {
-  
-}
-
 .row {
   margin-right: 0;
   margin-left: 0;
@@ -364,7 +358,8 @@ a:-webkit-any-link {
   }
 
   .avatar-image {
-    width: 20%;
+    width: 30%;
+    height: 10%;
     margin-right: 10px;
     margin-top: 2%;
   }
@@ -434,7 +429,6 @@ a:-webkit-any-link {
   .pro-layout, .repo-layout {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    /* grid-template-rows: repeat(4, 1fr); */
     text-align: center;
   }
 }
