@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaLinkedin, FaTwitter } from 'react-icons/fa';
-import { SiDiscord } from 'react-icons/si';
+import { FaLinkedin, FaTwitter, FaAngellist } from 'react-icons/fa';
+import { SiDiscord, SiGithub } from 'react-icons/si';
 import GitStarts from '../components/GitStarts';
 import Technologies from '../components/Technologies';
 
@@ -12,10 +12,10 @@ const Home = () => {
             </div>
             <div className='social-icons'>
                 <ul>
-                    <li><a href="#">< SiDiscord size={25} color='blue'/></a></li>
-                    <li><a href="#">< SiDiscord size={25} color='blue'/></a></li>
-                    <li><a href="#">< FaTwitter size={25} color='blue' /></a></li>
-                    <li><a href="#"><FaLinkedin size={25} color='blue' /></a></li>
+                    <li><a href="https://github.com/micheaol" target="_blank" rel="noreferrer">< SiGithub size={25} color='blue'/></a></li>
+                    <li><a href="https://angel.co/u/micheaol" target="_blank" rel="noreferrer">< FaAngellist size={25} color='blue'/></a></li>
+                    <li><a href="https://twitter.com/micheaol" target="_blank" rel="noreferrer">< FaTwitter size={25} color='blue' /></a></li>
+                    <li><a href="https://www.linkedin.com/in/micheaol/" target="_blank" rel="noreferrer"><FaLinkedin size={25} color='blue' /></a></li>
                 </ul>
             </div>
             <div className='person-sum'>

@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
 * {
   box-sizing: border-box;
   padding-top: 0;
   margin: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 .home-layout {
@@ -302,7 +305,34 @@ a:-webkit-any-link {
   padding-top: 10px;
 }
 
+.resume-holder {
+    width: 20%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 1px;
+    padding-top: 12px;
+    background-color: #484458;
+    border: none;
+    border-radius: 6px;
+    color: rgb(174, 182, 189);
+    align-items: center;
+}
 
+.resume-holder ul {
+  list-style-type: none;
+}
+
+.resume-holder:hover {
+  background-color: #25274d;
+}
+
+.alert-form {
+  font-size: 1.2rem;
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px;
+  color: cadetblue;
+}
 
 @media screen and (max-width: 960px) {
 

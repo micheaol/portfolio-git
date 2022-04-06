@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { SiDiscord } from 'react-icons/si';
 
@@ -9,12 +10,13 @@ const About = () => {
              <div className='welcome-msg'>
                 <h1>Hi 👋, I'm Michael Oladele</h1>
             </div>
-            <div className='social-icons'>
+            <div className='resume-holder'>
                 <ul>
-                    <li><a href="#">< SiDiscord size={25} color='blue'/></a></li>
-                    <li><a href="#">< SiDiscord size={25} color='blue'/></a></li>
-                    <li><a href="#">< FaTwitter size={25} color='blue' /></a></li>
-                    <li><a href="#"><FaLinkedin size={25} color='blue' /></a></li>
+                    <li className="">
+                        <a href="https://drive.google.com/file/d/1vD3iR_4GGfVuBzcjoEKiOiGtBWbsp3tc/view?usp=sharing" target="_blank" className="resume" rel="noreferrer">
+                            My Resume
+                        </a>
+                    </li>
                 </ul>
             </div>
            <p>

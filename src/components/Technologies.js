@@ -1,5 +1,8 @@
 import React from 'react';
 import { IoLogoJavascript } from 'react-icons/io';
+import { FaReact } from 'react-icons/fa';
+import { DiRubyRough } from 'react-icons/di';
+import { SiRubyonrails, SiPostgresql, SiRedux } from 'react-icons/si';
 import code from '../images/code.gif';
 
 const Technologies = () => {
@@ -14,10 +17,11 @@ const Technologies = () => {
                 </div>
                     <ul>
                         <li><a href="#"><IoLogoJavascript color='yellow'/></a></li>
-                        <li><a href="#"><IoLogoJavascript color='yellow'/></a></li>
-                        <li><a href="#"><IoLogoJavascript color='yellow'/></a></li>
-                        <li><a href="#"><IoLogoJavascript color='yellow'/></a></li>
-                        <li><a href="#"><IoLogoJavascript color='yellow'/></a></li>
+                        <li><a href="#"><SiRubyonrails color='yellow'/></a></li>
+                        <li><a href="#"><DiRubyRough color='yellow'/></a></li>
+                        <li><a href="#"><FaReact color='yellow'/></a></li>
+                        <li><a href="#"><SiPostgresql color='yellow'/></a></li>
+                        <li><a href="#"><SiRedux color='yellow'/></a></li>
                     </ul>
                 </div>
            </div>

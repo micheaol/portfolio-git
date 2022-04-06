@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { send } from 'emailjs-com';
 
 const ContactMe = () => {
-
+	const [alert, setAlert] = useState('');
 	const [toSend, setToSend] = useState({
 		fname: '',
 		lname: '',
@@ -17,10 +17,16 @@ const ContactMe = () => {
 		  'service_mq1zepr',
 		  'template_yaovnbb',
 		  toSend,
-		  'user_nsqczudrJgvlRzEmOqfCl'
+		  'user_nsqczudrJgvlRzEmOqfCl',
+		  setToSend({
+			fname: '',
+			lname: '',
+			email: '',
+			message: '',
+		  })
 		)
 		  .then((response) => {
-			console.log('SUCCESS!', response.status, response.text);
+			setAlert("Form has been submitted successfully");
 		  })
 		  .catch((err) => {
 			console.log('FAILED...', err);
@@ -43,6 +49,7 @@ const ContactMe = () => {
 		<div className="col-md-9">
 			<form className="contact-form" onSubmit={onSubmit}>
 				<div className="form-group">
+					<h1 className="alert-form">{alert}</h1>
 				  <label className="control-label col-sm-2" for="fname">First Name:</label>
 				  <div className="col-sm-10">          
 					<input 
@@ -53,6 +60,7 @@ const ContactMe = () => {
 					name="fname"
 					value={toSend.fname}
 					onChange={handleChange}
+					required
 					/>
 				  </div>
 				</div>
@@ -67,6 +75,7 @@ const ContactMe = () => {
 					name="lname"
 					value={toSend.lname}
     				onChange={handleChange}
+					required
 					/>
 				  </div>
 				</div>
@@ -81,6 +90,7 @@ const ContactMe = () => {
 					name="email"
 					value={toSend.email}
     				onChange={handleChange}
+					required
 					/>
 				  </div>
 				</div>
@@ -94,6 +104,7 @@ const ContactMe = () => {
 					id="comment"
 					value={toSend.message}
     				onChange={handleChange}
+					required
 					></textarea>
 				  </div>
 				</div>

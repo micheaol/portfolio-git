@@ -6,11 +6,11 @@ const Projects = () => {
     const projects = [
         {
             id:1,
-            title: 'Leaderboard-project',
-            summary: 'Leaderboard app was built to showcase my capability of working with Javascript, webpack, API. I data from API and send data to the API',
-            project_img: require('../images/covid.png'),
-            project_live: 'https://www.github.com/',
-            project_source: 'https://www.github.com/'
+            title: 'Budget app',
+            summary: 'Budge app allows you to track your speding. It allows you to categorize them into different categories.',
+            project_img: require('../images/budget.png'),
+            project_live: 'https://check-budget-app.herokuapp.com/',
+            project_source: 'https://github.com/micheaol/budget-app'
 
         },
         {
