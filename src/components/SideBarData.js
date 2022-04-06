@@ -3,6 +3,7 @@ import React from 'react';
 import * as FaIcons from 'react-icons/gi';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
+import * as MdIcons from 'react-icons/md';
 
 export const SidebarData = [
     {
@@ -14,19 +15,19 @@ export const SidebarData = [
     {
         title: 'Projects',
         path: '/projects',
-        icon: <AiIcons.AiFillHome />,
+        icon: <AiIcons.AiFillProject />,
         cName: 'nav-text'
     },
     {
         title: 'About',
         path: '/about-me',
-        icon: <AiIcons.AiFillHome />,
+        icon: <MdIcons.MdOutlinePersonPin />,
         cName: 'nav-text'
     },
     {
         title: 'Contact',
         path: '/contact',
-        icon: <AiIcons.AiFillHome />,
+        icon: <MdIcons.MdOutlineContactPhone />,
         cName: 'nav-text'
     },
 ]
