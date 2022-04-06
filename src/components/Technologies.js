@@ -16,12 +16,12 @@ const Technologies = () => {
                     <h2 className='tech-title'>📈 languages and tools:</h2>
                 </div>
                     <ul>
-                        <li><a href="#"><IoLogoJavascript color='yellow'/></a></li>
-                        <li><a href="#"><SiRubyonrails color='yellow'/></a></li>
-                        <li><a href="#"><DiRubyRough color='yellow'/></a></li>
-                        <li><a href="#"><FaReact color='yellow'/></a></li>
-                        <li><a href="#"><SiPostgresql color='yellow'/></a></li>
-                        <li><a href="#"><SiRedux color='yellow'/></a></li>
+                        <li><IoLogoJavascript color='yellow'/></li>
+                        <li><SiRubyonrails color='yellow'/></li>
+                        <li><DiRubyRough color='yellow'/></li>
+                        <li><FaReact color='yellow'/></li>
+                        <li><SiPostgresql color='yellow'/></li>
+                        <li><SiRedux color='yellow'/></li>
                     </ul>
                 </div>
            </div>

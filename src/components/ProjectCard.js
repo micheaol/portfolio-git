@@ -1,5 +1,4 @@
 import React from 'react';
-import covid from '../images/covid.png'
 
 const ProjectCard = ({ project}) => {
 

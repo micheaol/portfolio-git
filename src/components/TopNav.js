@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { FaGithub, FaRegBell } from 'react-icons/fa';
 import { BsPersonCircle, BsPlus } from 'react-icons/bs'
 import MobileMenu from './MobileMenu';

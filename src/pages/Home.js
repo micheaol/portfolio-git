@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaLinkedin, FaTwitter, FaAngellist } from 'react-icons/fa';
-import { SiDiscord, SiGithub } from 'react-icons/si';
+import { SiGithub } from 'react-icons/si';
 import GitStarts from '../components/GitStarts';
 import Technologies from '../components/Technologies';
 

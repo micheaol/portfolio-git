@@ -1,7 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { FaLinkedin, FaTwitter } from 'react-icons/fa';
-import { SiDiscord } from 'react-icons/si';
 
 
 const About = () => {
