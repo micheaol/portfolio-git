@@ -14,8 +14,8 @@ const ProjectCard = ({ project}) => {
             <div className='card-body'>
                 <p className='card-text'>{project.summary}</p>
                 <div className='card-btn card-body'>
-                    <a href={project.project_live} target="_blank" className="btn btn-primary">Live Demo</a>
-                    <a href="#" className="btn btn-primary">Source Code</a>
+                    <a href={project.project_live} target="_blank" className="btn btn-primary" rel="noreferrer">Live Demo</a>
+                    <a href={project.project_live} target="_blank" className="btn btn-primary" rel="noreferrer">Source Code</a>
                 </div>
             </div>
         </div>

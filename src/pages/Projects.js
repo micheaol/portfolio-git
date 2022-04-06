@@ -8,7 +8,7 @@ const Projects = () => {
             id:1,
             title: 'Leaderboard-project',
             summary: 'Leaderboard app was built to showcase my capability of working with Javascript, webpack, API. I data from API and send data to the API',
-            project_img: require('../images/covid.png'),
+            project_img: require('../images/leader.png'),
             project_live: 'https://www.github.com/',
             project_source: 'https://www.github.com/'
 

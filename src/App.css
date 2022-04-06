@@ -345,7 +345,7 @@ a:-webkit-any-link {
   }
 
 .logo {
-  margin-top: 5px;
+  margin-top: 20px;
 } 
 
   .left-content {
@@ -356,7 +356,7 @@ a:-webkit-any-link {
   }
 
   .bell-icon {
-    margin-top: 5px;
+    margin-top: 20px;
   }
 
   .avatar-with-name-sec {
@@ -430,4 +430,11 @@ a:-webkit-any-link {
   .about-layout {
     width: 96vw;
   }
+}
+
+.test {
+  display: block;
+  height: vh;
+  width: vw;
+  background-color: aqua;
 }

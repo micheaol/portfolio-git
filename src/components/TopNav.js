@@ -1,13 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FaGithub, FaRegBell } from 'react-icons/fa';
 import { BsPersonCircle, BsPlus } from 'react-icons/bs'
-import { GiHamburgerMenu } from 'react-icons/gi'
+import MobileMenu from './MobileMenu';
 
 const TopNav = () => {
     return (
         <div className='top-nav'>
-            <div className="hamburger-menu">
-                <GiHamburgerMenu size={40} color="white" />
+            <div className="hamburger-menu" >
+                <MobileMenu />
             </div>
             <div className='left-content'>
                 <div className='logo'>
