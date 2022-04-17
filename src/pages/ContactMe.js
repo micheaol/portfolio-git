@@ -50,7 +50,7 @@ const ContactMe = () => {
 			<form className="contact-form" onSubmit={onSubmit}>
 				<div className="form-group">
 					<h1 className="alert-form">{alert}</h1>
-				  <label className="control-label col-sm-2" for="fname">First Name:</label>
+				  <label className="control-label col-sm-2" for="fname"></label>
 				  <div className="col-sm-10">          
 					<input 
 					type="text"
@@ -65,7 +65,7 @@ const ContactMe = () => {
 				  </div>
 				</div>
 				<div className="form-group">
-				  <label className="control-label col-sm-2" for="lname">Last Name:</label>
+				  <label className="control-label col-sm-2" for="lname"></label>
 				  <div className="col-sm-10">          
 					<input 
 					type="text"
@@ -80,7 +80,7 @@ const ContactMe = () => {
 				  </div>
 				</div>
 				<div className="form-group">
-				  <label className="control-label col-sm-2" for="email">Email:</label>
+				  <label className="control-label col-sm-2" for="email"></label>
 				  <div className="col-sm-10">
 					<input 
 					type="email"
@@ -95,7 +95,7 @@ const ContactMe = () => {
 				  </div>
 				</div>
 				<div className="form-group">
-				  <label className="control-label col-sm-2" for="comment">Comment:</label>
+				  <label className="control-label col-sm-2" for="comment"></label>
 				  <div className="col-sm-10">
 					<textarea 
 					className="form-control" 
